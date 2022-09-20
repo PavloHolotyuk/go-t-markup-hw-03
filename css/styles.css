@@ -68,9 +68,14 @@ ul {
 }
 
 .hero {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
+    margin-bottom: 94px
 }
 .hero .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     background-color: var(--privary-bg-hero);
     color:  var(--primary-bg-color);
     font-weight: 900;
@@ -80,7 +85,17 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.section .futures-ourteam {
+    margin-top: 0;
+    margin-bottom: 94px;
+    padding: 0px;
+}
+
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 94px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -89,19 +104,24 @@ ul {
     
    }
 .futures .futures-title {
+    margin-top: 10px;
+    margin-bottom: 0px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.18;
 }
+
 .futures .futures-text {
     color: var(--accent-text-color);
+    margin-bottom: 30px;
+    margin-top: 10px;
     font-size: 14px;
     line-height: 1.18;
 }
-
 .futures-ourteam .futures-title {
-    color: var(--portfolio-color);
+ color: var(--portfolio-color);
+ margin-top: 30px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -109,17 +129,13 @@ letter-spacing: 0.03em;
 }
 .futures-ourteam .futures-text {
     color: var(--portfolio-text-color);
+    margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em; 
 }
 
-
- .button {
-    color: var(--primary-bg-color);
-    background-color: var(--primary-text-navigation);
-}
  .button.primary {
     color: var(--primary-bg-color);
     background-color: var(--primary-text-navigation);
@@ -128,6 +144,8 @@ letter-spacing: 0.03em;
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+    border-radius: 4px;
+    padding: 10px 32px;
 
 }
 
@@ -155,6 +173,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+border-radius: 4px;
 }
 .portfolio-header  .portfolio-title {
  color: var(--portfolio-color);
@@ -201,5 +220,32 @@ letter-spacing: 0.02em;
 .site-header .link:focus 
  {
     color: var(--primary-text-navigation);
+}
+.page-header {
+    display: inline-block;
+    background-color: var(--primary-bg-color);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 1200px;
+}
+
+.container-nav {
+    display: inline-block;
+margin-left: auto;
+ margin-right: auto;
+height: 80px;
+width: 1170px;
+outline: 2px solid red;
+}
+.container-mail {
+margin-left: auto;
+margin-right: auto;
+height: 80px;
+width: 1170px;
+outline: 2px solid red;
 }
 
