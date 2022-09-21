@@ -21,6 +21,8 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 /* Ховер */
 .logo {
@@ -58,6 +60,8 @@ ul {
  {
     color: var(--primary-text-navigation);
 } 
+
+
 .site-info a {
     color: var(--accent-text-color);
     font-weight: 500;
@@ -66,12 +70,11 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
 .hero {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    margin-bottom: 94px
+   
 }
 .hero .hero-title {
     margin-top: 0;
@@ -87,15 +90,19 @@ ul {
 }
 .section .futures-ourteam {
     margin-top: 0;
-    margin-bottom: 94px;
+   
     padding: 0px;
+}
+.section { 
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 50px;
-    padding-top: 94px;
+    
+    padding-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -122,6 +129,7 @@ ul {
 .futures-ourteam .futures-title {
  color: var(--portfolio-color);
  margin-top: 30px;
+ margin-bottom: 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -130,6 +138,7 @@ letter-spacing: 0.03em;
 .futures-ourteam .futures-text {
     color: var(--portfolio-text-color);
     margin-top: 10px;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -227,25 +236,95 @@ letter-spacing: 0.02em;
 }
 
 .container {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    width: 1200px;
 }
 
-.container-nav {
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+.site-nav .link {
+    display: block;
+}
+
+.site-header .link {
+    display: block;
+}
+.site-header {
+    display: flex;
+}
+.site-header .item:not(:last-child) {
+    margin-right: 50px;
+}
+.main {
+    display: flex;
+}
+.futures {
+    display: flex;
+}
+.futures-text {
+   margin-right: 30px;
+}
+.section-title li {
+    flex-wrap: wrap;
+    display: flex;
+    width: 200px;
+}
+/*
+.main {
+    display: flex;
+  
+}
+
+
+.site-nav {
+    text-align: center;
     display: inline-block;
-margin-left: auto;
- margin-right: auto;
-height: 80px;
-width: 1170px;
-outline: 2px solid red;
+    display: flex;
+    
+
 }
-.container-mail {
-margin-left: auto;
-margin-right: auto;
-height: 80px;
-width: 1170px;
-outline: 2px solid red;
+.site-nav .link {
+   
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
+.site-nav .item:not(:last-child) {
+    text-align: center;
+    margin-right: 50px;
+}
+.site-nav .item {
+    display: flex;
+}
+.site-header  {
+    display: flex;
+}
+.site-header .item +.item {
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
