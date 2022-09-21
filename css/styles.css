@@ -279,6 +279,34 @@ letter-spacing: 0.02em;
     display: flex;
     width: 200px;
 }
+.item-class {
+    width: 380px;
+    display: flex;  
+    margin-left: 30px;
+}
+.item {
+    margin-left: 30px;
+}
+.futures-ourteam {
+    width: 380px;
+    display: flex;
+    margin-right: 30px;
+    text-align: center;
+}
+.futures-title {
+    width: 270px;
+    text-align: center;
+    margin-top: 30px;
+
+
+
+}
+
+
+  
+
+  
+ 
 /*
 .main {
     display: flex;
